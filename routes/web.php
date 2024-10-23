@@ -11,5 +11,9 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/about', function () {
-    return view('Tentang Que');
+    return view('about');
+});
+
+Route::get('/login', function () {
+    return view('login');
 });
