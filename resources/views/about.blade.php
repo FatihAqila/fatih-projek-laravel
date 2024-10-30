@@ -185,7 +185,7 @@
         <div class="hero-content">
             <h1>Nama Saya Ataya Fatih Aqila</h1>
             <p>Saya siswa SMK Telkom Purwokerto Kelas XI PPLG 1.</p>
-            <a href="#" class="cta-button">Mulai</a>
+            <a href="{{ route('login') }}" class="cta-button">Mulai</a>
         </div>
     </section>
 
